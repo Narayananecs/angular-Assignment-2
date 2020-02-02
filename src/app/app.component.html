@@ -1,0 +1,6 @@
+<hello name="{{ name }}"></hello>
+<input type="text" [(ngModel)]="name">
+<p>
+  {{name}}
+</p>
+<button [disabled]="name.length === 0" > Reset</button>
